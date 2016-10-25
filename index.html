@@ -1,390 +1,311 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-    <meta name="theme-color" content="#2196F3">
-    <title>It's a Secret</title>
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" type="image/png" href="assets/img/favicon.ico">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <title>It's a Secret App</title>
 
-    <!-- CSS  -->
-    <link href="min/plugin-min.css" type="text/css" rel="stylesheet">
-    <link href="min/custom-min.css" type="text/css" rel="stylesheet" >
-</head>
-<body id="top" class="scrollspy">
+        <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+        <meta name="viewport" content="width=device-width" />
 
-<!-- Pre Loader -->
-<div id="loader-wrapper">
-    <div id="loader"></div>
- 
-    <div class="loader-section section-left"></div>
-    <div class="loader-section section-right"></div>
- 
-</div>
-
-<!--Navigation-->
- <div class="navbar-fixed">
-    <nav id="nav_f" class="default_color" role="navigation">
-        <div class="container">
-            <div class="nav-wrapper">
-            <small class="header_lang">Language:<a href="es/index.html">Español</a></small>
-            <a href="#" id="logo-container" class="brand-logo"><img class="topbarlogo" src="img/topbar.png"></a>
-                <ul class="right hide-on-med-and-down">
-                    <li><a href="#intro">Service</a></li>
-                    <li><a href="#work">Work</a></li>
-                    <li><a href="#team">Team</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li><a href="https://github.com/joashp/material-design-template" target="_blank">Download</a></li>
-                </ul>
-                <ul id="nav-mobile" class="side-nav">
-                    <li><a href="#intro">Service</a></li>
-                    <li><a href="#work">Work</a></li>
-                    <li><a href="#team">Team</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li><a href="https://github.com/joashp/material-design-template" target="_blank">Download</a></li>
-                </ul>
-            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-            </div>
-        </div>
-    </nav>
-</div>
-
-<!--Hero-->
-<div class="section no-pad-bot" id="index-banner">
-    <div class="container">
-        <h1 class="text_h center header cd-headline letters type">
-            <span>Be</span> 
-            <span class="cd-words-wrapper waiting">
-                <b class="is-visible">Free</b>
-                <b>Anonymous</b>
-                <b>Yourself!</b>
-            </span>
-        </h1>
-    </div>
-</div>
-
-<!--Intro and service-->
-<div id="intro" class="section scrollspy">
-    <div class="container">
-        <div class="row">
-            <div  class="col s12">
-                <h5 class="header text_h2">It&apos;s a Secret </span> is an application that allows the user to interact and share<span class="span_h2">secrets</span> and photos or whatever you want. Secret lets you take a picture (or choose one from your gallery) and publish it on your wall. The application uses your <span class="span_h2">location</span> to show you nearby posts from other people <span class="span_h2">around you.</span> The application is totally <span class="span_h2">anonymous.</span></h5>
-            </div>
-
-            <div  class="col s12 m4 l4">
-                <div class="center promo promo-example">
-                    <i class="mdi-image-flash-on"></i>
-                    <h5 class="promo-caption">Speeds up development</h5>
-                    <p class="light center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+        <link href="assets/css/bootstrap.css" rel="stylesheet" />
+        <link href="assets/css/landing-page.css" rel="stylesheet"/>
+        <!--     Fonts and icons     -->
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,300' rel='stylesheet' type='text/css'>
+        <link href="assets/css/pe-icon-7-stroke.css" rel="stylesheet" />
+    </head>
+    <body class="landing-page landing-page1">
+        <nav class="navbar navbar-transparent navbar-top" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button id="menu-toggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar bar1"></span>
+                    <span class="icon-bar bar2"></span>
+                    <span class="icon-bar bar3"></span>
+                    </button>
+                    <a href="http://www.creative-tim.com">
+                        <div class="logo-container">
+                            <div class="logo">
+                                <img src="assets/img/new_logo.png" alt="Creative Tim Logo">
+                            </div>
+                            <div class="brand">
+                                It's a Secret
+                            </div>
+                        </div>
+                    </a>
                 </div>
-            </div>
-            <div class="col s12 m4 l4">
-                <div class="center promo promo-example">
-                    <i class="mdi-social-group"></i>
-                    <h5 class="promo-caption">User Experience Focused</h5>
-                    <p class="light center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="example" >
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="https://www.facebook.com/secretsapp/">
+                            <i class="fa fa-facebook-square"></i>
+                            Like
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.twitter.com/secrets_app">
+                            <i class="fa fa-twitter"></i>
+                            Tweet
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/secret-app">
+                            <i class="fa fa-github"></i>
+                            Github
+                            </a>
+                        </li>
+                    </ul>
                 </div>
+                <!-- /.navbar-collapse -->
             </div>
-            <div class="col s12 m4 l4">
-                <div class="center promo promo-example">
-                    <i class="mdi-hardware-desktop-windows"></i>
-                    <h5 class="promo-caption">Fully responsive</h5>
-                    <p class="light center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+        </nav>
+        <div class="wrapper">
+            <div class="parallax filter-gradient orange" data-color="orange">
+                <div class="parallax-background">
+                    <img class="parallax-background-image" src="assets/img/showcases/showcase-1/header-bg.jpg">
                 </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!--Work-->
-<div class="section scrollspy" id="work">
-    <div class="container">
-        <h2 class="header text_b">Screenshots </h2>
-        <div class="row">
-            <div class="col s12 m4 l4">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="img/s1.png">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Login Screen <i class="mdi-navigation-more-vert right"></i></span>
-                        <p><a href="#">Project link</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Project Title <i class="mdi-navigation-close right"></i></span>
-                        <p>Here is some more information about this project that is only revealed once clicked on.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m4 l4">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="img/s2.png">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Signup Screen <i class="mdi-navigation-more-vert right"></i></span>
-                        <p><a href="#">Project link</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Project Title <i class="mdi-navigation-close right"></i></span>
-                        <p>Here is some more information about this project that is only revealed once clicked on.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m4 l4">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="img/s3.png">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Main Screen <i class="mdi-navigation-more-vert right"></i></span>
-                        <p><a href="#">Project link</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Project Title <i class="mdi-navigation-close right"></i></span>
-                        <p>Here is some more information about this project that is only revealed once clicked on.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m4 l4">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="img/s4.png">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Navigation Screen <i class="mdi-navigation-more-vert right"></i></span>
-                        <p><a href="#">Project link</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4"> <i class="mdi-navigation-close right"></i></span>
-                        <p>Here is some more information about this project that is only revealed once clicked on.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m4 l4">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="img/s5.png">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Profile Screen <i class="mdi-navigation-more-vert right"></i></span>
-                        <p><a href="#">Project link</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Project Title <i class="mdi-navigation-close right"></i></span>
-                        <p>Here is some more information about this project that is only revealed once clicked on.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m4 l4">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="img/s6.png">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">About Screen <i class="mdi-navigation-more-vert right"></i></span>
-                        <p><a href="#">Project link</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Project Title <i class="mdi-navigation-close right"></i></span>
-                        <p>Here is some more information about this project that is only revealed once clicked on.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!--Parallax-->
-<div class="parallax-container">
-    <div class="parallax"><img src="img/cover2.png"></div>
-</div>
-
-<!--Team-->
-<div class="section scrollspy" id="team">
-    <div class="container">
-        <h2 class="header text_b"> Our Team </h2>
-        <div class="row">
-            <div class="col s12 m3">
-                <div class="card card-avatar">
-                    <div class="waves-effect waves-block waves-light">
-                        <img class="activator" src="img/avatar_1.png">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Efraín J. Valentín <br/>
-                            <small><em><a class="red-text text-darken-1" href="#">CEO and Developer</a></em></small></span>
-                        <p>
-                            <a class="blue-text text-lighten-2" href="https://www.facebook.com/joash.c.pereira">
-                                <i class="fa fa-facebook-square"></i>
-                            </a>
-                            <a class="blue-text text-lighten-2" href="https://twitter.com/im_joash">
-                                <i class="fa fa-twitter-square"></i>
-                            </a>
-                            <a class="blue-text text-lighten-2" href="https://plus.google.com/u/0/+JoashPereira">
-                                <i class="fa fa-google-plus-square"></i>
-                            </a>
-                            <a class="blue-text text-lighten-2" href="https://www.linkedin.com/in/joashp">
-                                <i class="fa fa-linkedin-square"></i>
-                            </a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m3">
-                <div class="card card-avatar">
-                    <div class="waves-effect waves-block waves-light">
-                        <img class="activator" src="img/avatar_2.png">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Foxy<br/>
-                            <small><em><a class="red-text text-darken-1" href="#">The Pet</a></em></small>
-                        </span>
-                        <p>
-                            <a class="blue-text text-lighten-2" href="https://www.facebook.com/joash.c.pereira">
-                                <i class="fa fa-facebook-square"></i>
-                            </a>
-                            <a class="blue-text text-lighten-2" href="https://twitter.com/im_joash">
-                                <i class="fa fa-twitter-square"></i>
-                            </a>
-                            <a class="blue-text text-lighten-2" href="https://plus.google.com/u/0/+JoashPereira">
-                                <i class="fa fa-google-plus-square"></i>
-                            </a>
-                            <a class="blue-text text-lighten-2" href="https://www.linkedin.com/in/joashp">
-                                <i class="fa fa-linkedin-square"></i>
-                            </a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m3">
-                <div class="card card-avatar">
-                    <div class="waves-effect waves-block waves-light">
-                        <img class="activator" src="img/avatar_3.png">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">
-                            TecnoPhonePro <br/>
-                            <small><em><a class="red-text text-darken-1" href="#">Sponsor</a></em></small></span>
-                        <p>
-                            <a class="blue-text text-lighten-2" href="https://www.facebook.com/joash.c.pereira">
-                                <i class="fa fa-facebook-square"></i>
-                            </a>
-                            <a class="blue-text text-lighten-2" href="https://twitter.com/im_joash">
-                                <i class="fa fa-twitter-square"></i>
-                            </a>
-                            <a class="blue-text text-lighten-2" href="https://plus.google.com/u/0/+JoashPereira">
-                                <i class="fa fa-google-plus-square"></i>
-                            </a>
-                            <a class="blue-text text-lighten-2" href="https://www.linkedin.com/in/joashp">
-                                <i class="fa fa-linkedin-square"></i>
-                            </a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m3">
-                <div class="card card-avatar">
-                    <div class="waves-effect waves-block waves-light">
-                        <img class="activator" src="img/avatar_4.png">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">High School<br/>
-                            <small><em><a class="red-text text-darken-1" href="#">L.M.M</a></em></small></span>
-                        <p>
-                            <a class="blue-text text-lighten-2" href="https://www.facebook.com/joash.c.pereira">
-                                <i class="fa fa-facebook-square"></i>
-                            </a>
-                            <a class="blue-text text-lighten-2" href="https://twitter.com/im_joash">
-                                <i class="fa fa-twitter-square"></i>
-                            </a>
-                            <a class="blue-text text-lighten-2" href="https://plus.google.com/u/0/+JoashPereira">
-                                <i class="fa fa-google-plus-square"></i>
-                            </a>
-                            <a class="blue-text text-lighten-2" href="https://www.linkedin.com/in/joashp">
-                                <i class="fa fa-linkedin-square"></i>
-                            </a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!--Footer-->
-<footer id="contact" class="page-footer default_color scrollspy">
-    <div class="container">  
-        <div class="row">
-            <div class="col l6 s12">
-                <form class="col s12" action="contact.php" method="post">
+                <div class= "container">
                     <div class="row">
-                        <div class="input-field col s6">
-                            <i class="mdi-action-account-circle prefix white-text"></i>
-                            <input id="icon_prefix" name="name" type="text" class="validate white-text">
-                            <label for="icon_prefix" class="white-text">First Name</label>
+                        <div class="col-md-7">
+                            <div class="description">
+                                <h2>It's a Secret - Be Free</h2>
+                                <br>
+                                <h5>It's a Secret is an application that allows the user to share whatever you want: Your adventures, lies, wishes and fantasies. Secret lets you take a picture (or choose one from your gallery) and publish it on your wall. The application uses your location to show you nearby posts from other people around you.</h5>
+                            </div>
+                            <div class="buttons">
+                                <!--<button class="btn btn-fill btn-neutral">
+                                <i class="fa fa-apple"></i> Appstore
+                                </button>-->
+                                <button class="btn btn-fill btn-neutral">
+                                <i class="fa fa-android"></i> Play Store
+                                </button>
+                                <!--<button class="btn btn-simple btn-neutral">
+                                <i class="fa fa-windows"></i>
+                                </button>-->
+                            </div>
                         </div>
-                        <div class="input-field col s6">
-                            <i class="mdi-communication-email prefix white-text"></i>
-                            <input id="icon_email" name="email" type="email" class="validate white-text">
-                            <label for="icon_email" class="white-text">Email-id</label>
-                        </div>
-                        <div class="input-field col s12">
-                            <i class="mdi-editor-mode-edit prefix white-text"></i>
-                            <textarea id="icon_prefix2" name="message" class="materialize-textarea white-text"></textarea>
-                            <label for="icon_prefix2" class="white-text">Message</label>
-                        </div>
-                        <div class="col offset-s7 s5">
-                            <button class="btn waves-effect waves-light red darken-1" type="submit">Submit
-                                <i class="mdi-content-send right white-text"></i>
-                            </button>
+                        <div class="col-md-5  hidden-xs">
+                            <div class="parallax-image">
+                                <img class="phone" src="assets/img/showcases/showcase-1/iphone.png"/>
+                            </div>
                         </div>
                     </div>
-                </form>
+                </div>
             </div>
-            <div class="col l3 s12">
-                <h5 class="white-text">Developer Website</h5>
-                <ul>
-                    <li><a class="white-text" href="https://efrainvalentin.github.io/">Home</a></li>
-                    <!--<li><a class="white-text" href="http://www.efrainvalentin.github.io/blog">Blog</a></li>-->
-                </ul>
+            <!--<div class="section section-gray section-clients">
+                <div class="container text-center">
+                    <h4 class="header-text">Be Free!</h4>
+                    <p>
+                        Remember, no one will know who you are, you are free to share whatever you want: Your adventures, lies, wishes and fantasies. Its a curious world.
+                        To create an account you only need 3 things: a username (emojis are allowed), an e-mail and a password. The application is totally anonymous.<br>
+                    </p>
+                    <div class="logos">
+                        <ul class="list-unstyled">
+                            <li ><img src="assets/img/logos/adobe.png"/></li>
+                            <li ><img src="assets/img/logos/zendesk.png"/></li>
+                            <li ><img src="assets/img/logos/ebay.png"/></i>
+                            <li ><img src="assets/img/logos/evernote.png"/></li>
+                            <li ><img src="assets/img/logos/airbnb.png"/></li>
+                            <li ><img src="assets/img/logos/zappos.png"/></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>-->
+            <div class="section section-presentation">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="description">
+                                <h4 class="header-text">Be Free!</h4>
+                                <p>Remember, no one will know who you are, you are free to share whatever you want: Your adventures, lies, wishes and fantasies. Its a curious world.
+                        		To create an account you only need 3 things: a username (emojis are allowed), an e-mail and a password. The application is totally anonymous.</p>
+                                <p>Its a Secret is an anonymous way to be free, no one will know who you are.
+    							   With a Double tap you can express how much you like something or someone. Remember, its a secret. Shhhhh!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-5 col-md-offset-1 hidden-xs">
+                            <img src="assets/img/showcases/showcase-1/iphones.png"/ style="top:-50px">
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col l3 s12">
-                <h5 class="white-text">Social</h5>
-                <ul>
-                    <li>
-                        <a class="white-text" href="https://www.behance.net/joashp">
-                            <i class="small fa fa-behance-square white-text"></i> Behance
-                        </a>
-                    </li>
-                    <li>
-                        <a class="white-text" href="https://www.facebook.com/joash.c.pereira">
-                            <i class="small fa fa-facebook-square white-text"></i> Facebook
-                        </a>
-                    </li>
-                    <li>
-                        <a class="white-text" href="https://github.com/joashp">
-                            <i class="small fa fa-github-square white-text"></i> Github
-                        </a>
-                    </li>
-                    <li>
-                        <a class="white-text" href="https://www.linkedin.com/in/joashp">
-                            <i class="small fa fa-linkedin-square white-text"></i> Linkedin
-                        </a>
-                    </li>
-                </ul>
+            <!--<div class="section section-demo">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div id="description-carousel" class="carousel fade" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="item">
+                                        <img src="assets/img/showcases/showcase-1/examples/home_3.jpg" alt="">
+                                    </div>
+                                    <div class="item active">
+                                        <img src="assets/img/showcases/showcase-1/examples/home_2.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                        <img src="assets/img/showcases/showcase-1/examples/home_1.jpg" alt="">
+                                    </div>
+                                </div>
+                                <ol class="carousel-indicators carousel-indicators-orange">
+                                    <li data-target="#description-carousel" data-slide-to="0" class=""></li>
+                                    <li data-target="#description-carousel" data-slide-to="1" class="active"></li>
+                                    <li data-target="#description-carousel" data-slide-to="2" class=""></li>
+                                </ol>
+                            </div>
+                        </div>
+                   <div class="col-md-5 col-md-offset-1">
+                            <h4 class="header-text">Easy to use</h4>
+                            <p>
+                                With all the apps that users love! Make it easy for users to share, like, post and tweet their favourite things from the app. Be sure to let users know they continue to remain connected while using your app!
+                            </p>
+                            <a href="http://www.creative-tim.com/product/awesome-landing-page" id="Demo1" class="btn btn-warning btn-fill" data-button="warning">Get Free Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>-->
+            <div class="section section-features">
+                <div class="container">
+                    <h4 class="header-text text-center">Features</h4>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card card-orange">
+                                <div class="icon">
+                                    <i class="pe-7s-like"></i>
+                                </div>
+                                <div class="text">
+                                    <h4>Likes</h4>
+                                    <p>With a Double tap you can express how much you like something or someone. Remember, its a secret. Shhhhh!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card card-orange">
+                                <div class="icon">
+                                    <i class="pe-7s-lock"></i>
+                                </div>
+                                <h4>Anonymous</h4>
+                                <p>Its a Secret is an anonymous way to be free, no one will know who you are.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card card-orange">
+                                <div class="icon">
+                                    <i class="pe-7s-map-marker"></i>
+                                </div>
+                                <h4>Location Services</h4>
+                                <p>Its a Secret uses your location to show you posts nearby.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <div class="section section-testimonial">
+                <div class="container">
+                    <h4 class="header-text text-center">What people think</h4>
+                    <div id="carousel-example-generic" class="carousel fade" data-ride="carousel">
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item">
+                                <div class="mask">
+                                    <img src="assets/img/faces/face-4.jpg">
+                                </div>
+                                <div class="carousel-testimonial-caption">
+                                    <p>Randy Muñiz, Student</p>
+                                    <h3>"I absolutely love your app! It's truly amazing and looks awesome!"</h3>
+                                </div>
+                            </div>
+                            <div class="item active">
+                                <div class="mask">
+                                    <img src="assets/img/faces/face-3.jpg">
+                                </div>
+                                <div class="carousel-testimonial-caption">
+                                    <p>Rosario González</p>
+                                    <h3>"This is one of the most awesome apps I've ever seen! Wish you luck Efraín!"</h3>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="mask">
+                                    <img src="assets/img/faces/face-2.jpg">
+                                </div>
+                                <div class="carousel-testimonial-caption">
+                                    <p>Enrique "Kiko" Aviles, Mayor of Moca, Puerto Rico</p>
+                                    <h3>"Loving this! Just picked it up the other day. Thank you for the work you put into this."</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <ol class="carousel-indicators carousel-indicators-orange">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div class="section section-no-padding">
+                <div class="parallax filter-gradient orange" data-color="orange">
+                    <div class="parallax-background">
+                        <img class ="parallax-background-image flipped" src="assets/img/showcases/showcase-1/spotlight_intro_card_bubbles.png">
+                    </div>
+                    <div class="info">
+                        <h1>Download this app for free!</h1>
+                        <p>Be Free - Be Anonymous - Be Yourself</p>
+                        <a href="#" class="btn btn-neutral btn-lg btn-fill"><i class="fa fa-android"></i> DOWNLOAD</a>
+                    </div>
+                </div>
+            </div>
+            <footer class="footer">
+                <div class="container">
+                    <nav class="pull-left">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                Company
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                Portfolio
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                Blog
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="social-area pull-right">
+                        <a href="https://www.facebook.com/secretsapp/" class="btn btn-social btn-facebook btn-simple">
+                        <i class="fa fa-facebook-square"></i>
+                        </a>
+                        <a href="http://www.twitter.com/secrets_app" class="btn btn-social btn-twitter btn-simple">
+                        <i class="fa fa-twitter"></i>
+                        </a>
+                        <a href="https://github.com/secret-app" class="btn btn-social btn-simple">
+                        <i class="fa fa-github"></i>
+                        </a>
+                    </div>
+                    <div class="copyright">
+                        &copy; 2016 <a href="http://www.efrainvalentin.github.com">Efra&iacute;n Valent&iacute;n</a>, made with love
+                    </div>
+                </div>
+            </footer>
         </div>
+
     </div>
-    <div class="footer-copyright default_color">
-        <div class="container">
-            Made by <a class="white-text" href="http://joashpereira.com">Efraín J. Valentín</a>. Copyright © 2016<a class="white-text" href="http://materializecss.com/"> Addict, Inc</a>
-        </div>
-    </div>
-</footer>
-
-
-    <!--  Scripts-->
-    <script src="min/plugin-min.js"></script>
-    <script src="min/custom-min.js"></script>
-
     </body>
+    <script src="assets/js/jquery-1.10.2.js" type="text/javascript"></script>
+    <script src="assets/js/jquery-ui-1.10.4.custom.min.js" type="text/javascript"></script>
+    <script src="assets/js/bootstrap.js" type="text/javascript"></script>
+    <script src="assets/js/awesome-landing-page.js" type="text/javascript"></script>
 </html>
