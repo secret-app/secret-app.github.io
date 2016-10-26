@@ -1679,3 +1679,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
         padding-top: 10px;
     }
 }
+.heart span{
+  color: #f50057;
+}
