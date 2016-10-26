@@ -1681,4 +1681,5 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
 }
 span.heart{
   color: #f50057;
+  font-size: larger;
 }
