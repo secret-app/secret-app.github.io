@@ -76,7 +76,7 @@ $(document).ready(function() {
 		$('.menu').toggleClass('open');
 	});
 	    var userLang = navigator.language || navigator.userLanguage;
-        if (userLang == "en") {
+        if (userLang == "es") {
             break;
         }
         else {
