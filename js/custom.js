@@ -75,6 +75,13 @@ $(document).ready(function() {
 	$('.toggle-nav').click(function(){
 		$('.menu').toggleClass('open');
 	});
+	    var userLang = navigator.language || navigator.userLanguage;
+        if (userLang == "en") {
+            break;
+        }
+        else {
+            window.location.href = "http://secret-app.github.io/es"
+        }
 	
 	/* ==== Event Target ==== */
 	$('body').click(function(event){
