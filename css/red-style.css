@@ -392,6 +392,54 @@ img.logo {
 .features-right ul li{
 	padding-left:60px;
 }
+/* ==== Status ==== */
+
+.status{
+	padding:80px 0;
+	padding-top:80px ;
+	padding-bottom:0;
+}
+.fs-image-wrapp img{
+	width:300px;
+	height:auto;
+}
+.status-list{
+	padding-top:50px;
+}
+.status-list h3{
+	text-transform:uppercase;
+	font-weight:100;
+}
+.status-list p{
+	color:#9D9D9D;
+}
+.status-list ul li{
+	position:relative;
+	margin-bottom:50px;
+}
+.status-list ul li:last-child{
+	margin-bottom:0;
+}
+.status-left ul li i{
+	position:absolute;
+	top:5px;
+	right:0;
+	font-size:32px;
+	color:#717171;
+}
+.status-right ul li i{
+	position:absolute;
+	top:5px;
+	left:0;
+	font-size:32px;
+	color:#717171;
+}
+.status-left ul li{
+	padding-right:60px;
+}
+.status-right ul li{
+	padding-left:60px;
+}
 
 /* ==== Between ==== */
 .container-between{
@@ -1145,6 +1193,13 @@ a.customisable-highlight {
 	width: 100%;
 		border-bottom:2px solid #F34235;
 		padding:25px 0;
+
+}
+.divider-status{
+	width: 100%;
+		border-bottom:2px solid #F34235;
+		padding:25px 0;
+		margin-top: -80px;
 
 }
 .twitter-feed-section{
