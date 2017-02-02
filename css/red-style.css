@@ -1218,3 +1218,12 @@ a.customisable-highlight {
 h4#padding-less {
     margin-top: -80px;
 }
+h3.subtitle{
+	margin: 0px;
+	padding: 0px;
+	border: 1px;
+	border-left-color: #F34235;
+}
+i.fa.fa-question-circle{
+	color: #000;
+}
