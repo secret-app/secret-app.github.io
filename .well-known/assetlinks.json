@@ -1,1 +1,9 @@
-
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.addict.secret",
+    "sha256_cert_fingerprints":
+    ["2D:25:0A:D8:0C:84:84:55:25:9A:83:4E:AC:33:28:58:8B:A5:A6:69:62:D5:05:9D:B4:7F:9A:1E:5F:47:A2:63"]
+  }
+}]
